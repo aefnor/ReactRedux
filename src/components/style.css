@@ -1,0 +1,13 @@
+.Navbar {
+    background-color: #272822;
+}
+
+.navText {
+    color: "white";
+}
+.headline {
+    /*justify-content: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
