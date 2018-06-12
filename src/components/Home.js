@@ -3,7 +3,7 @@ import Footer from './Footer'
 import Navbar from './Navbar'
 import AddTodo from '../containers/AddTodo'
 import VisibleTodoList from '../containers/VisibleTodoList'
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, FormText, Table } from 'reactstrap';
 import './style.css';
 import {
     LiveProvider,
@@ -21,6 +21,9 @@ const Home = () => (
             {/* <LiveError /> */}
             {/* <LivePreview /> */}
         </LiveProvider>
+        <AddTodo />
+        <VisibleTodoList />
+        <Footer />
         {/* <FormGroup>
             <Label for="exampleText">Text Area</Label>
             <Input type="textarea" value="Hi? hi" name="text" id="exampleText" />
